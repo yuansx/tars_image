@@ -23,7 +23,7 @@ TARS_IMAGE 设置构建镜像名称
 
 # 容器net模式为host，则按照实际网卡，修改interface
 如网卡为enp0s3则命令如下：
-tars_image=tars:v1.0  sh install.sh
+tars_image=tars:v1.0 interface=enp0s3 sh install.sh
 
 
 # 基于这个git构建的容器地址
