@@ -29,3 +29,11 @@ tars_image=tars:v1.0 interface=enp0s3 sh install.sh
 # 基于这个git构建的容器地址
 https://hub.docker.com/r/yuansx/tars/
 通过docker pull yuansx/tars:v1.0 拉取
+
+# 注意
+这个构建完成后，生成的容器，便直接进入了
+https://github.com/Tencent/Tars/blob/master/Install.md
+的安装步骤4.4了，请自行安装tarsnotify tarsstat等服务
+
+这个容器仅用于体验使用，所产生的数据均保存在容器内部，数据随着容器的删除而被销毁。
+实际部署时，请认真规划好再自行安装部署
